@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>General Drivers</title>
+    <!-- Google font: Figtree -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="">
+    <!-- jQuery UI CSS (useful but not required for Boostrap v5.x) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/themes/base/jquery-ui.min.css" integrity="sha512-TFee0335YRJoyiqz8hA8KV3P0tXa5CpRBSoM0Wnkn7JoJx1kaq1yXL/rb8YFpWXkMOjRcv5txv+C6UluttluCQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Local CSS -->
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class='navbar navbar-expand-lg text-bg-light' data-bs-theme='light'>
+        <div class='container'>
+          <a class='navbar-brand fs-3' href='#'>
+            General Drivers </a>
+          <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbar-907431319523355' aria-controls='navbarScroll' aria-expanded='false' aria-label='Toggle navigation'>
+            <span class='navbar-toggler-icon'></span>
+          </button>
+          <div class='collapse navbar-collapse' id='navbar-907431319523355'>
+            <ul class='navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll'>
+              <li class='nav-item'>
+                <a class='nav-link' href='./index.html'>Home</a>
+              </li>
+              <li class='nav-item'>
+                <a class='nav-link' href='./olddriver.html'>Older Drivers</a>
+              </li>
+              <li class='nav-item'>
+                <a class='nav-link' href='./youngdriver.html'>Younger Drivers</a>
+              </li>
+              <li class='nav-item dropdown'>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- I recommend you abstract this custom CSS in the inline style here which points to the image -->
+    <div class='jumbotron rounded-0 mb-4' style='background: linear-gradient(rgba(7, 55, 99, 0.6), rgba(7, 55, 99, 0.6)), url(https://newsroom.aaa.com/wp-content/uploads/2019/02/american-driving-survey-NR-i879953274.jpg) center/cover no-repeat'>
+      <div class='container p-5'>
+        <h3 class='display-5 fw-bold text-white'>General Drivers</h3>
+        <p class='fs-3 text-white opacity-75'>Simple information </p>
+        <p class='lead text-white'>Provides general insights on drivers in the United States.</p>
+      </div>
+    </div>
+    <div class="container" id="bsr-wrapper">
+      <h2>The Insights</h2>
+      <p>The following graphs provide data on general drivers in the United States. </p>
+      <iframe src="./fig1.html" width="800" height="600"></iframe>
+      <p>The pie graph displays the percentage of males and females that drive from 1994-2023. The amount of drivers is almost split up exactly evenly! Is it a surprise that there are almost an equal amount of male and female drivers?</p>
+      <iframe src="./fig4.html" width="800" height="600"></iframe>
+      <p>This line graph displays the drivers per year from 1994-2023. The relationship between the amount of drivers and years is linear. As the years increase, the amount of drivers also increase. There is a slight plateau from 2011 to 2013. It can be infered that this may be due an increase in economic and/or population growth over the years. </p>
+      <p></p>
+      <a href="https://data.transportation.gov/Roadways-and-Bridges/Licensed-Drivers-by-State-Sex-and-Age-Group-1994-2/xfkb-3bxx/about_data">The data source!</a>
+   
+
+
+
+
+    </div>
+    <!-- Latest Stable jQuery and jQuery UI JS (useful but not required w/ Bootstrap 5.x) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js" integrity="sha512-0Bpcki9x49X/si6oSTzCxzPWA/O+yr5HgRjGbH0Jw9sFeZqpsJ8ZnSLOn/6AuYJ3oj7kGbc5jFCOljW4W5DCnA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Bootstrap bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Local JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
